@@ -4,7 +4,7 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js > ./utils/.private/log 2>&1",
+    "start": "node bot.js > ./utils/.private/log.log 2>&1",
     "test": "nodemon bot.js"
   },
   "keywords": [],
